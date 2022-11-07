@@ -1,0 +1,32 @@
+Data Types 
+
+Primitive 
+- String type
+- Number type
+- Boolean type
+- Undefined type
+- Null type
+- BigInt type
+- Symbol type
+
+Non Primitive
+- Object
+
+
+Operators
+
+An Operators is a special symbol used to perform operations on values and variable
+1.Assigment Operators
+2.Arithmetic Operators
+3.Comparison Operators
+4.Logical Operators
+5.String Operators
+6.Other Operators
+
+
+Type Conversions
+
+- Implicit conversion also known as type coercion where Javascript itself will automatically convert the type;
+- Explicit conversion where you manually convert the type
+
+

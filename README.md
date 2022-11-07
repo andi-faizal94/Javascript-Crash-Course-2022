@@ -2,6 +2,7 @@
 
 **Resource:**
 Learning from Youtube : [Code Evolution](https://www.youtube.com/watch?v=XIOLqoPHCJ4)
+Documentation Javascript : [MDN Web Docs](https://developer.mozilla.org/en-US/)
 
 ## Explain about :
 
@@ -15,3 +16,7 @@ Learning from Youtube : [Code Evolution](https://www.youtube.com/watch?v=XIOLqoP
 8. Looping code
 9. Functions
 10. Scope
+
+[About ++x or x++](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Increment)
+
+[Difference about ++x or x++](https://stackoverflow.com/questions/6867876/javascript-i-vs-i)
