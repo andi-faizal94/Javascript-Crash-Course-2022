@@ -30,3 +30,27 @@ Type Conversions
 - Explicit conversion where you manually convert the type
 
 
+Equality
+
+== (Allows coercion)
+=== (Does not allow coercion)
+
+
+
+Conditional Statements
+
+-if 
+
+-else
+
+-else if
+
+-switch
+
+
+Looping code 
+
+1 for looping
+
+
+

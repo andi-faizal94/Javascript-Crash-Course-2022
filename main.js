@@ -187,8 +187,60 @@ console.log(Number(''));
 console.log(parseInt(''));
 // expected NaN
 
-function names() {
-  callback('andi');
+// Equality
+
+const var1 = 'test';
+const var2 = 'test';
+
+console.log(var1 == var2);
+console.log(var1 === var2);
+
+const varia1 = 10;
+const varia2 = '10';
+
+console.log(varia1 == varia2);
+console.log(varia1 === varia2);
+
+// Conditional Statements
+
+const number = 0;
+
+//if
+
+if (number > 0) {
+  console.log('number is positif');
 }
 
-names(() => console.log('halo'));
+// if else
+if (number > 0) {
+  console.log('number is positif');
+} else {
+  console.log('negatif');
+}
+
+// else if
+
+if (number > 0) {
+  console.log('number is positif');
+} else if (number < 0) {
+  console.log('number is negatif');
+} else {
+  console.log('number is zero');
+}
+
+// switch
+const color = 'blue';
+
+switch (color) {
+  case 'red':
+    console.log('color is red');
+    break;
+  case 'blue':
+    console.log('color is blue');
+    break;
+  case 'green':
+    console.log('color is green');
+    break;
+  default:
+    console.log('not a valid color');
+}
