@@ -244,3 +244,132 @@ switch (color) {
   default:
     console.log('not a valid color');
 }
+
+// For loop
+
+for (let a = 1; a <= 5; a++) {
+  console.log(`iteraration number ${a}`);
+}
+
+// While Loop
+let i = 1;
+while (i <= 5) {
+  console.log(`iteration number ${i}`);
+  i++;
+}
+
+// Do .. while loop
+
+let j = 1;
+do {
+  console.log(`iteraration number ${j}`);
+  j++;
+} while (j <= 5);
+
+// For of loop
+
+const arrayNumber = [1, 2, 3, 4, 5];
+
+for (const a of arrayNumber) {
+  console.log(`iteration number ${a}`);
+}
+
+// Function
+
+// function greet() {
+//   console.log('Good morning ');
+// }
+
+function greet(username) {
+  return console.log(`Good morning ${username}`);
+}
+
+// invoke
+greet('andi');
+greet('dyana');
+greet('chanana');
+
+//  Function Declaration
+// example hoisting
+// you can invoke function add in here
+add(3, 4);
+
+const sum = add(1, 3);
+console.log(sum);
+
+// Function Expression
+// example
+// you will message error
+// ReferenceError: Cannot access 'sumExpression' before initialization
+
+// const numberSum = sumExpression(2, 4);
+// console.log(numberSum);
+
+// Arrow Function
+// example
+// You can't use the function before you declared it:
+// you will message error
+// ReferenceError: Cannot access 'arrowFunction' before initialization
+
+// const arrow = arrowFunction(1, 4);
+// console.log(arrow);
+
+// function declaration is hoisting.
+// Function declarations in JavaScript are hoisted to the top of the enclosing function or global scope. You can use the function before you declared it:
+
+function add(a, b) {
+  return a + b;
+}
+
+// function expression not hoisted;
+// You can't use the function before you declared it:
+
+const sumExpression = function (a, b) {
+  return a + b;
+};
+
+// arrow function
+// Is not hoisting
+
+const arrowFunction = (a, b) => {
+  return a + b;
+};
+
+// const sum = add(1, 3);
+// console.log(sum);
+
+// Block Scope
+
+if (true) {
+  const myNames = 'Vishas';
+}
+// expected error
+// myNames is not defined
+// because the variable in block scope
+// console.log(myNames);
+
+// Function Scope
+function testFn() {
+  const MyName = 'Hundai';
+  console.log(MyName);
+}
+
+testFn();
+
+// Global Scope
+// Global Scope can use access in function scope and block scope
+
+const numberOfGlobal = 10;
+const Superman = 'Superman';
+
+if (true) {
+  console.log(numberOfGlobal);
+  console.log(Superman);
+}
+
+function fnGlobal() {
+  console.log(numberOfGlobal);
+  console.log(Superman);
+}
+
+fnGlobal();

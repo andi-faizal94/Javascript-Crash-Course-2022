@@ -50,7 +50,62 @@ Conditional Statements
 
 Looping code 
 
-1 for looping
+1. for loop
+for (initializer; condition ;final-expression){
+   // code to run 
+}
+
+2. while loop
+
+initializer
+while (condition){
+    //code to run
+
+    final-expression
+}
+
+3. do ... while loop
+
+do{
+    //code to run 
+    while expression
+
+    final-expression
+} while(condition)
+
+4. for ... of loop
+
+for(const item of array){
+    //code to run
+}
+
+
+Functions
+
+A Javascript Functions is a block of code designed to perform a particular task
+
+Ex: Add two numbers,multiply two numbers Explicit
+
+Functions are reusable as they can be defined once and can be called with different values resulting in different results
+
+Functions help divide a complex problem into smaller chuncks and makes your program easy to understand and maintain 
+
+
+function name (parameter1,parameter2,parameter3){
+    // code to be executed
+}
+
+
+
+
+Scope 
+
+Scope basically determines accessibility or visibility of variables
+
+- Block Scope
+- Function Scope
+- Global Scope
+
 
 
 
